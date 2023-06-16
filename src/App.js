@@ -36,13 +36,14 @@ function App() {
     },
   ]);
   const [search, setSearch] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
   return (
     <div className="App">
       <Header title={"React Js Blog"} />
-      <Nav />
+      <Nav search={search} setSearch={setSearch} />
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home post={posts} />
         </Route>
         <Route exact path="/post">
           <NewPost />

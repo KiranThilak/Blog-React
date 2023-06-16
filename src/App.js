@@ -43,7 +43,7 @@ function App() {
       <Nav search={search} setSearch={setSearch} />
       <Switch>
         <Route exact path="/">
-          <Home post={posts} />
+          <Home posts={posts} />
         </Route>
         <Route exact path="/post">
           <NewPost />

@@ -9,7 +9,30 @@ import Missing from "./Missing";
 import { Route, Switch, useHistory } from "react-router-dom";
 import { useState, useEffect } from "react";
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Header />
+      <Nav />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/post">
+          <NewPost />
+        </Route>
+        <Route path="/post/:id">
+          <PostPage />
+        </Route>
+        <Route path="/about" component={About}>
+          <About />
+        </Route>
+        <Route path="*" component={Missing}>
+          <Missing />
+        </Route>
+      </Switch>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

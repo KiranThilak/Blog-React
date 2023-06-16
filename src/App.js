@@ -11,7 +11,7 @@ import { useState, useEffect } from "react";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header title={"React Js Blog"} />
       <Nav />
       <Switch>
         <Route exact path="/">

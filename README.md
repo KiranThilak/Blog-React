@@ -5,8 +5,9 @@ Welcome to the React JS Blog project! This is a blog application built with Reac
 
 ## Screenshots
 
-<img width="1054" alt="Screenshot 2023-06-19 202627" src="https://github.com/KiranThilak/Blog-React/assets/91961344/7efccf9e-98e3-4f41-9ad8-d8855cb71339">
 <img width="1041" alt="Screenshot 2023-06-19 202658" src="https://github.com/KiranThilak/Blog-React/assets/91961344/aced80eb-c189-4f2f-9fca-ff1cb0d410c6">
+<img width="1054" alt="Screenshot 2023-06-19 202627" src="https://github.com/KiranThilak/Blog-React/assets/91961344/7efccf9e-98e3-4f41-9ad8-d8855cb71339">
+
 
 ## Live Demo
 

@@ -63,6 +63,7 @@ function App() {
 
   const handleDelete = async (id) => {
     try {
+      await api.delete(`/posts/${id}`);
       const postList = posts.filter((post) => post.id !== id);
       setPosts(postList);
       history.push("/");
